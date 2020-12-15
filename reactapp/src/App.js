@@ -28,13 +28,13 @@ import './App.css';
 import React, { useState } from "react";
 
 const emojiDatabase = {
-  🍇 Grapes,
-🍈 Melon,
-🍉 Watermelon,
-🍊 Tangerine,
-🍋 Lemon,
-🍌 Banana,
-🍍 Pineapple,
+  🍇: "Grapes",
+🍈:"Melon",
+🍉 : "Watermelon",
+🍊 : "Tangerine",
+🍋 : "Lemon",
+🍌 : "Banana",
+🍍 : "Pineapple"
   
 };
 let emojiData = Object.keys(emojiDatabase);
